@@ -38,7 +38,7 @@ class StringSession {
     }
 
     createStringSession(dict) {
-        return 'AMDI;;;' + Buffer.from(JSON.stringify(dict)).toString('base64');
+        return 'DRAGONX;;;' + Buffer.from(JSON.stringify(dict)).toString('base64');
     }
 }
 
